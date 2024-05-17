@@ -1,16 +1,22 @@
-import { useState } from 'react'
-
+import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import Layout from "./features/Layout";
+import Home from "./Page/Home";
+import About from "./Page/About"
+import Services from "./Page/Services"
 
 function App() {
- 
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-     <h1 className="text-3xl font-bold underline text-center">
-      Hello worlddf!
-    </h1>
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/service" element={<Services />} />
+      </Route>
+    </Routes>
+  );
 }
 
-export default App
+export default App;
