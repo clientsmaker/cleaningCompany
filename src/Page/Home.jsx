@@ -10,6 +10,8 @@ import product6 from '../assets/ser3.jpg'
 import product7 from '../assets/ser4.jpg'
 import product8 from '../assets/watertank2.jpeg'
 import ProductCard from '../Components/Card/ProductCard'
+import SectionCard2 from '../Components/Card/SectionCard2'
+import Testimonials from '../Components/Testimonial/Testimonials'
 const Home = () => {
 
 
@@ -69,6 +71,7 @@ const Home = () => {
   </div>
 </section>
 </div>
+<SectionCard2 />
 <h1 className="text-4xl font-bold text-gray-800 mb-4 mt-8 text-center">
         OUR SERVICES
       </h1>
@@ -160,6 +163,7 @@ const Home = () => {
           </p>
         </div>
       </div>
+      <Testimonials />
       </>
   )
 }

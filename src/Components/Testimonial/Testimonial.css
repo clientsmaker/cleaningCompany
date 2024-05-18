@@ -1,0 +1,11 @@
+.testimonial-slider {
+    width: 90%;
+  }
+  
+  .testimonial-photo {
+    object-fit: cover;
+  }
+
+  .testimonial-card {
+    margin: 0 1rem; /* Adjust as necessary */
+  }

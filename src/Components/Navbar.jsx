@@ -20,7 +20,7 @@ const Navbar = () => {
       <header className="py-2 absolute z-10 w-full overflow--hidden">
         <nav className="flex justify-between items-center max-container">
           <a href="/" className="flex items-center">
-            <h3 className="ml-10 block font-extrabold text-black mt-6 text-2xl font-serif">
+            <h3 className="ml-10 block font-bold  mt-6 text-2xl font-serif"style={{ color: '#e70e02 ' }}>
             <h1 style={{ fontFamily: 'Cinzel, serif' }}>
             Golden Cleaning Service</h1>
             {/* <p className="text-white text-xl italic mt-1" style={{ fontFamily: 'Dancing Script, cursive' }}> <em> Your digital salesman</em></p> */}
