@@ -7,3 +7,16 @@
 .no-overflow {
     overflow-x: hidden;
   }
+
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .custom-shadow-bg-white {
+    box-shadow: 8px 6px 6px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }

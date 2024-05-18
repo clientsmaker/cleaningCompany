@@ -20,10 +20,11 @@ const Home = () => {
     { image: product4, description: "Dish Washer" },
     { image: product5, description: "Commercial Cooking" },
     { image: product6, description: "Commercial Beverage" },
-    { image: product7, description: "Ice Cream Machine" },  
-    { image: product8, description: "Dish Washer" },
+    // { image: product7, description: "Ice Cream Machine" },  
+    // { image: product8, description: "Dish Washer" },
   ];
   return (
+    <>
     <div>
       <Navbar />
       <section
@@ -67,6 +68,7 @@ const Home = () => {
     </div>
   </div>
 </section>
+</div>
 <h1 className="text-4xl font-bold text-gray-800 mb-4 mt-8 text-center">
         OUR SERVICES
       </h1>
@@ -75,11 +77,90 @@ const Home = () => {
           <ProductCard
             key={index}
             image={product.image}
-            description={product.description}
+            // description={product.description}
           />
         ))}
       </div>
-    </div>
+      <h1 className="text-4xl font-sans text-gray-800 mb-4 mt-8 text-center">
+        OUR VISION
+      </h1>
+      <div className="flex justify-center gap-4 md:gap-8 flex-wrap">
+        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-bg-white-01 dark:border-gray-700 m-8 custom-shadow-bg-white">
+          <img
+            src={product7}
+            alt="Product 18"
+            className="w-16 h-16 rounded-full object-cover mb-3"
+          />
+
+          <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            INSTALLATION
+          </h5>
+
+          <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
+            QS Gas Safe commercial catering engineers ensure that your kitchen
+            is installed and commissioned safely and effectively. Your dedicated
+            QS project manager will be on hand to oversee installation and
+            ensure that everything runs smoothly and to your satisfaction
+          </p>
+        </div>
+        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-bg-white-01 dark:border-gray-700 m-8 custom-shadow-bg-white">
+          <img
+            src={product8}
+            alt="Product 18"
+            className="w-16 h-16 rounded-full object-cover mb-3"
+          />
+
+          <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            PEST SOLUTIONS
+          </h5>
+
+          <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
+            QS is specialists in the design, supply and installation of
+            commercial kitchens to clients ranging from small café’s, care
+            homes, large restaurants, production kitchens, Industrial Kitchen,
+            Central Kitchens, Hotel kitchens & Corporate kitchens.
+          </p>
+        </div>
+        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-bg-white-01 dark:border-gray-700 m-8 custom-shadow-bg-white">
+          <img
+            src={product6}
+            alt="Product 18"
+            className="w-16 h-16 rounded-full object-cover mb-3"
+          />
+
+          <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            WATER TANK CLEANING
+          </h5>
+
+          <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
+            QS is specialists in the design, supply and installation of
+            commercial kitchens to clients ranging from small café’s, care
+            homes, large restaurants, production kitchens, Industrial Kitchen,
+            Central Kitchens, Hotel kitchens & Corporate kitchens.
+          </p>
+        </div>
+        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-bg-white-01 dark:border-gray-700 m-8 custom-shadow-bg-white">
+          <img
+            src={product5}
+            alt="Product 18"
+            className="w-16 h-16 rounded-full object-cover mb-3"
+          />
+
+          <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            QUALITY
+          </h5>
+
+          <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
+            QS specializes in ensuring the quality and reliability of every
+            aspect of commercial kitchen design, supply, and installation. Our
+            expertise extends to a diverse clientele, including small cafes,
+            care homes, expansive restaurants, production kitchens, industrial
+            facilities, central kitchens, hotel establishments, and corporate
+            facilities.
+          </p>
+        </div>
+      </div>
+      </>
   )
 }
 
