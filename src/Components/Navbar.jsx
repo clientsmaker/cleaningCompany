@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
- 
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom";
 
@@ -16,31 +15,31 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex bg-slate-700">
-      <header className="py-2 absolute z-10 w-full overflow--hidden">
+    <div className="bg-slate-700">
+      <header className="py-2 fixed z-10 w-full overflow--hidden"style={{  backdropFilter: 'blur(2px)', backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
         <nav className="flex justify-between items-center max-container">
-          <a href="/" className="flex items-center">
-            <h3 className="ml-10 block font-bold  mt-6 text-2xl font-serif"style={{ color: '#e70e02 ' }}>
-            <h1 style={{ fontFamily: 'Cinzel, serif' }}>
-            Golden Cleaning Service</h1>
-            {/* <p className="text-white text-xl italic mt-1" style={{ fontFamily: 'Dancing Script, cursive' }}> <em> Your digital salesman</em></p> */}
+          <div className="flex items-center">
+            <h3 className="ml-10 block font-extrabold mt-6 text-3xl font-serif" >
+              <h1 style={{ fontFamily: 'Cinzel, serif' }}>
+                Golden Cleaning Service
+              </h1>
             </h3>
-          </a>
+          </div>
           <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
-            <li className="font-montserrat leading-normal  hover:scale-110   transition-all ease-in-out text-lg text-white">
+            <li className="font-bold leading-normal hover:scale-110 transition-all ease-in-out text-lg text-black">
               <Link to="/">Home</Link>
             </li>
-            <li className="font-montserrat leading-normal text-lg text-white  hover:scale-110   transition-all ease-in-out">
+            <li className="font-bold leading-normal text-lg text-black hover:scale-110 transition-all ease-in-out">
               <Link to="/about">About</Link>
             </li>
-            <li className="font-montserrat leading-normal text-lg text-white  hover:scale-110   transition-all ease-in-out">
+            <li className="font-bold leading-normal text-lg text-black hover:scale-110 transition-all ease-in-out">
               <Link to="/service">Services</Link>
             </li>
-            <li className="font-montserrat leading-normal text-lg text-white  hover:scale-110   transition-all ease-in-out">
+            <li className="font-bold leading-normal text-lg text-black hover:scale-110 transition-all ease-in-out">
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
-          
+
           <div className="lg:hidden relative">
             <motion.button
               className="w-10 h-10 bg-white rounded-full flex justify-center items-center mr-6"
@@ -60,8 +59,8 @@ const Navbar = () => {
                 )}
               </svg>
             </motion.button>
-            <motion.ul 
-              className={`absolute z-50 top-full left-0 right-0 rounded-xl bg-white ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none '}`}
+            <motion.ul
+              className={`absolute z-50 top-full left-0 right-0 rounded-xl bg-white ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
               animate={isOpen ? "open" : "closed"}
               variants={variants}
               style={{ left: isOpen ? '-40px' : 0 }} // Adjust left position here

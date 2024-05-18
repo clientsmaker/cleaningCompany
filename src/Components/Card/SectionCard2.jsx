@@ -2,12 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 // import section from "../../assets/boy1.png";
-import section from '../../assets/abtsec.jpg'
+import section from "../../assets/abtsec.jpg";
 
 const SectionCard2 = () => {
   const { ref, inView } = useInView({
-    triggerOnce: true, 
-    threshold: 0.50 
+    triggerOnce: true,
+    threshold: 0.5,
   });
 
   return (
@@ -17,8 +17,8 @@ const SectionCard2 = () => {
           <div className="relative z-10 lg:py-16">
             <motion.div
               initial={{ x: "-100vw" }}
-              animate={inView ? { x: 0 } : { x: "-100vw" }} 
-              transition={{ type: "spring", stiffness: 120 ,duration: 15}}
+              animate={inView ? { x: 0 } : { x: "-100vw" }}
+              transition={{ type: "spring", stiffness: 120, duration: 15 }}
               className="relative h-64 sm:h-80 lg:h-full"
             >
               <img
@@ -32,26 +32,26 @@ const SectionCard2 = () => {
           <div className="relative flex items-center ">
             <motion.div
               initial={{ x: "100vw" }}
-              animate={inView ? { x: 0 } : { x: "100vw" }} 
-              transition={{ type: "spring", stiffness: 120,duration:  0 }}
+              animate={inView ? { x: 0 } : { x: "100vw" }}
+              transition={{ type: "spring", stiffness: 120, duration: 0 }}
               className="p-8 sm:p-16 lg:p-24"
             >
               <p className="text-black font-medium">
                 Hey, <br />
-                Welcome to TheClientsMaker.com, a leading digital marketing and
-                business development agency nestled in the vibrant landscape of
-                Dubai. We specialize in crafting compelling digital experiences
-                tailored to elevate your brand's online presence and drive
-                tangible results.
+                Welcome to Golden Cleaning Service, a premier home maintenance
+                and cleaning company proudly serving our community. We
+                specialize in providing top-tier services that ensure your
+                living and working spaces are immaculate, safe, and
+                comfortable..
               </p>
               <p className="text-black font-medium">
-                At TheClientsMaker.com, we understand that in today's dynamic
-                digital world, having a strong online presence is paramount.
-                That's why we offer a comprehensive suite of services designed
-                to empower businesses to thrive in the digital realm. From
-                stunning website design and captivating video production to
-                engaging photography and expertly crafted content, we're your
-                one-stop destination for all things digital marketing.
+                At Golden Cleaning Service, we understand the importance of a
+                clean and healthy environment. That’s why we offer a
+                comprehensive range of services designed to meet your specific
+                needs and exceed your expectations. Whether you require thorough
+                water tank cleaning, effective pest control, or a variety of
+                home maintenance solutions, we have the expertise and dedication
+                to deliver exceptional results
               </p>
             </motion.div>
           </div>

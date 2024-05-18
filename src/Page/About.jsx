@@ -1,11 +1,10 @@
 // import React from "react";
-
 import backgroundImage from "../assets/abt.jpg";
+import waterTankImage from "../assets/water1.jpg"; // Add your actual image path
+import pestControlImage from "../assets/pest1.jpg"; // Add your actual image path
+import homeServiceImage from "../assets/carpetclean.jpg"; // Add your actual image path
 import Navbar from "../Components/Navbar";
 import React from "react";
-import { Button } from "@material-tailwind/react"; // assuming you are using Material Tailwind for UI components
-
-// import backgroundImage from "../assets/cooking-class.jpg"; // replace with a more relevant image
 
 const About = () => {
   return (
@@ -13,30 +12,60 @@ const About = () => {
       <div className="bg-gray-100">
         <Navbar />
         <div
-          className="h-96 bg-cover bg-center "
+          className="h-96 bg-cover bg-center"
           style={{
             backgroundImage: `url(${backgroundImage})`,
           }}
         >
           <div className="flex flex-col items-center justify-center h-full text-white">
-            <h3 className="text-3xl font-bold mb-4">
-             About Us
-            </h3>
-            <p className="text-lg mb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <h3 className="text-3xl font-bold mb-4">About Us</h3>
+            <p className="text-lg font-semibold mb-6">
+              Clean Spaces, Happy Faces.
             </p>
-            {/* <Button variant="contained" color="blue">
-              Explore Our Courses
-            </Button> */}
           </div>
         </div>
         <div className="bg-gray-100 p-8 text-gray-800">
-          <p className="text-lg md:text-xl lg:text-2xl mb-4">Our Mission</p>
-          <p className="mb-4">
-            At GOLDEN CLEANING SERVICE, Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quas, tempora voluptates suscipit vero quis commodi debitis ducimus ad numquam
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo delectus pariatur dicta quo ratione laborum fuga consequatur aut. Hic voluptatibus eaque, asperiores repellat laborum dicta adipisci quo labore, ex mollitia voluptate aliquid delectus distinctio ea doloremque, vitae praesentium deserunt veritatis! Provident tempora, maiores reprehenderit dolorem deleniti ducimus autem veniam quae voluptatem corrupti at, dicta voluptatibus ab velit esse alias, illum sint dignissimos ipsum nulla aspernatur. Nostrum fugiat repellendus quo pariatur, quisquam aliquam officiis obcaecati! Dignissimos, alias ex nihil, inventore iste eveniet dolore perferendis distinctio magni culpa, corrupti suscipit. Quae voluptate atque magni id tenetur corporis iusto temporibus exercitationem eos libero quas in quaerat quidem assumenda quibusdam rerum dicta recusandae, a voluptas? Odit eum et eaque, maxime quo aspernatur id libero aliquid recusandae earum praesentium quas illo. Pariatur, possimus ab quibusdam ullam, non dolorem ipsam quam praesentium et iure provident adipisci rem corporis. Mollitia voluptas quisquam rem dolore, laboriosam quaerat nisi nam, quod itaque dolores quis tempore exercitationem repudiandae saepe expedita necessitatibus totam? Qui reiciendis iste possimus culpa praesentium autem ad quo earum laudantium optio! Voluptatem saepe minus adipisci consequatur, nobis qui, quia dolore ipsum voluptatum natus, soluta consectetur repellendus blanditiis porro! Labore, cum omnis quos iusto magni aliquid quam tenetur.
+          <p className="text-lg md:text-xl lg:text-2xl mb-4 font-bold">Our Mission</p>
+          <p className="mb-4 font-medium">
+            Welcome to Golden Cleaning Service, a premier home maintenance and cleaning company proudly serving our community. We specialize in providing top-tier services that ensure your living and working spaces are immaculate, safe, and comfortable. We are your trusted partner for comprehensive home services. We specialize in water tank cleaning, pest control, and a wide range of other home maintenance solutions to ensure your living environment is clean, safe, and comfortable.
+            At Golden Cleaning Service, our mission is to provide top-quality cleaning and maintenance services that exceed our clients' expectations. We are committed to delivering exceptional results through meticulous attention to detail, cutting-edge techniques, and a dedicated team of professionals. At Golden Cleaning Service, we understand the importance of a clean and healthy environment. That’s why we offer a comprehensive range of services designed to meet your specific needs and exceed your expectations. Whether you require thorough water tank cleaning, effective pest control, or a variety of home maintenance solutions, we have the expertise and dedication to deliver exceptional results.
           </p>
-          {/* ... (continue with the rest of the content, using headings and breaking down text into sections) ... */}
+
+          <div className="flex flex-wrap mb-8">
+            <div className="w-full md:w-1/2 mb-4 md:mb-0">
+              <p className="font-bold">Water Tank Cleaning:</p>
+              <p className="font-medium">
+                Ensure the purity and safety of your water supply with our thorough water tank cleaning services. We use advanced equipment and eco-friendly solutions to clean and sanitize your water tanks.
+              </p>
+            </div>
+            <div className="w-full md:w-1/2">
+              <img src={waterTankImage} alt="Water Tank Cleaning" className="rounded-lg h-32" />
+            </div>
+          </div>
+
+          <div className="flex flex-wrap mb-8">
+            <div className="w-full md:w-1/2 mb-4 md:mb-0">
+              <p className="font-bold">Pest Control:</p>
+              <p className="font-medium">
+                Protect your home from unwanted pests with our effective pest control services. Our experienced technicians use safe and efficient methods to eliminate pests and prevent future infestations.
+              </p>
+            </div>
+            <div className="w-full md:w-1/2">
+              <img src={pestControlImage} alt="Pest Control" className="rounded-lg h-32" />
+            </div>
+          </div>
+
+          <div className="flex flex-wrap mb-8">
+            <div className="w-full md:w-1/2 mb-4 md:mb-0">
+              <p className="font-bold">Home Maintenance:</p>
+              <p className="font-medium">
+                From deep cleaning to routine upkeep, we offer a variety of home maintenance services tailored to your specific needs. Our goal is to keep your home in pristine condition, giving you more time to enjoy it.
+              </p>
+            </div>
+            <div className="w-full md:w-1/2">
+              <img src={homeServiceImage} alt="Home Maintenance" className="rounded-lg h-32" />
+            </div>
+          </div>
         </div>
       </div>
     </>
