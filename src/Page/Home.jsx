@@ -3,8 +3,8 @@ import Navbar from "../Components/Navbar";
 import homecard from "../assets/disintection.jpeg";
 import product1 from "../assets/aftercleanng.avif";
 import product2 from "../assets/pest1.jpg";
-import product3 from "../assets/pest2.jpg";
-import product4 from "../assets/ser1.jpg";
+import product3 from "../assets/acmech.jpg";
+import product4 from "../assets/homeclean.jpg";
 import product5 from "../assets/ser2.jpg";
 import product6 from "../assets/ser3.jpg";
 import product7 from "../assets/ser4.jpg";
@@ -15,13 +15,14 @@ import Testimonials from "../Components/Testimonial/Testimonials";
 import SectionCard4 from "../Components/Card/SectionCard4";
 import Footer from "../Components/Footer";
 import WhatsappButton from "../Components/WhatsappButton";
+import { Link } from "react-router-dom";
 const Home = () => {
   const products = [
-    { image: product1, description: "Purity Checking" },
-    { image: product2, description: "Pest Control" },
-    { image: product3, description: "Pest " },
-    { image: product4, description: "Home Maintenance" },
-    { image: product5, description: "Water Tank Cleaning" },
+    { image: product1, description: "Purity Checking",path: "/purity-checking" },
+    { image: product2, description: "Pest Control",path: "/pest-control" },
+    { image: product3, description: "AC Maintanance" ,path: "/aircondition-check" },
+    { image: product4, description: "Home Maintenance",path:"/home-maintanance"},
+    { image: product5, description: "Water Tank Cleaning",path: "/watertank-cleaning" },
     { image: product6, description: "Office Cleaning" },
     // { image: product7, description: "Ice Cream Machine" },
     // { image: product8, description: "Dish Washer" },
@@ -62,11 +63,12 @@ const Home = () => {
       </h1>
       <div className="flex justify-center flex-wrap gap-8 mt-8">
         {products.map((product, index) => (
+          <Link to={product.path} key={index}>
           <ProductCard
-            key={index}
             image={product.image}
             description={product.description}
           />
+        </Link>
         ))}
       </div>
       <h1 className="text-4xl font-bold text-black mb-4 mt-8 text-center">
