@@ -29,15 +29,16 @@ const Services = () => {
   }, []);
 
   return (
-    <div className=''>
+<>
+<div className="">
       <Navbar />
-      <div className="flex flex-col items-center justify-start mt-16">
+      <div className="flex flex-col items-center justify-start ">
         <div className="p-6 text-white flex flex-col items-center md:flex-row justify-center md:justify-start">
           <h3 className="text-xl md:text-2xl lg:text-4xl text-center md:text-left jerking-effect">
-            <strong className='text-white'>Our Services:</strong><br/>
-            <p className="mt-4 text-black text-center">
-              At Golden Cleaning Service, we understand the importance of clean and safe water storage. Our professional water tank cleaning services ensure that your water supply is free from contaminants, providing you with peace of mind and a healthier environment.
-            </p>
+            {/* <strong className='text-white'>Our Services:</strong><br/> */}
+            <p className=" text-gray-500  mt-32 sm:mt-20">
+            Your one-stop solution for a cleaner, safer home. From crystal-clear water tanks to effective pest control and reliable home maintenance, we ensure your home is always at its best.
+</p>
           </h3>
         </div>
       </div>
@@ -54,7 +55,8 @@ const Services = () => {
      
 
       <WhatsappButton />
-    </div>
+      </div>
+      </>
   );
 };
 
