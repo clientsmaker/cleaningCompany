@@ -19,7 +19,7 @@ const Navbar = () => {
       <header className="py-2 fixed z-10 w-full overflow--hidden"style={{  backdropFilter: 'blur(2px)', backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
         <nav className="flex justify-between items-center max-container">
           <div className="flex items-center">
-            <h3 className="ml-10 block font-extrabold mt-6 text-3xl font-serif" >
+            <h3 className="ml-10 block font-extrabold mt-6 text-xl font-serif" >
               <h1 style={{ fontFamily: 'Cinzel, serif' }}>
               GOLDEN WATER TANK CLEANIG & PEST CONTROL SERVICES
               </h1>

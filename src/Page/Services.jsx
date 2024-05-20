@@ -36,7 +36,7 @@ const Services = () => {
         <div className="p-6 text-white flex flex-col items-center md:flex-row justify-center md:justify-start">
           <h3 className="text-xl md:text-2xl lg:text-4xl text-center md:text-left jerking-effect">
             {/* <strong className='text-white'>Our Services:</strong><br/> */}
-            <p className=" text-gray-500  mt-32 sm:mt-20">
+            <p className=" text-gray-500  mt-40 sm:mt-24">
             Your one-stop solution for a cleaner, safer home. From crystal-clear water tanks to effective pest control and reliable home maintenance, we ensure your home is always at its best.
 </p>
           </h3>
