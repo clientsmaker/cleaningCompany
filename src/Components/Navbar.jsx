@@ -21,11 +21,11 @@ const Navbar = () => {
           <div className="flex items-center">
             <h3 className="ml-10 block font-extrabold mt-6 text-3xl font-serif" >
               <h1 style={{ fontFamily: 'Cinzel, serif' }}>
-                Golden Cleaning Service
+              GOLDEN WATER TANK CLEANIG & PEST CONTROL SERVICES
               </h1>
             </h3>
           </div>
-          <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
+          <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden p-2">
             <li className="font-bold leading-normal hover:scale-110 transition-all ease-in-out text-lg text-black">
               <Link to="/">Home</Link>
             </li>

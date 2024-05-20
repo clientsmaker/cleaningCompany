@@ -16,7 +16,7 @@ const Footer = () => {
 
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-4 lg:gap-16">
             <div className="col-span-1">
-              <h2 className="text-2xl font-bold text-white mb-4">Golden Cleaning Service</h2>
+              <h2 className="text-2xl font-bold text-white mb-4"> GOLDEN WATER TANK CLEANIG & PEST CONTROL SERVICES</h2>
               <p className="text-gray-200 leading-relaxed">
                 Providing top-notch water tank cleaning, pest control, and various home services to ensure your home is always in perfect condition.
               </p>

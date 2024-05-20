@@ -24,3 +24,20 @@ html {
 }
 
 
+@layer utilities {
+  .group:hover .group-hover\:opacity-100 {
+    opacity: 1;
+  }
+
+  .group-hover\:scale-105:hover {
+    transform: scale(1.05);
+  }
+
+  .pointer-events-auto {
+    pointer-events: auto;
+  }
+
+  .pointer-events-none {
+    pointer-events: none;
+  }
+}

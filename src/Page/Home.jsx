@@ -17,12 +17,12 @@ import Footer from "../Components/Footer";
 import WhatsappButton from "../Components/WhatsappButton";
 const Home = () => {
   const products = [
-    { image: product1, description: "Toaster" },
-    { image: product2, description: "Comercial Refrigerator" },
-    { image: product3, description: "Oven" },
-    { image: product4, description: "Dish Washer" },
-    { image: product5, description: "Commercial Cooking" },
-    { image: product6, description: "Commercial Beverage" },
+    { image: product1, description: "Purity Checking" },
+    { image: product2, description: "Pest Control" },
+    { image: product3, description: "Pest " },
+    { image: product4, description: "Home Maintenance" },
+    { image: product5, description: "Water Tank Cleaning" },
+    { image: product6, description: "Office Cleaning" },
     // { image: product7, description: "Ice Cream Machine" },
     // { image: product8, description: "Dish Washer" },
   ];
@@ -51,21 +51,6 @@ const Home = () => {
                 control, we ensure your home shines.
               </p>
 
-              {/* <div className="mt-8 flex flex-wrap gap-4 text-center">
-            <a
-                href="#"
-                className="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
-            >
-                Get Started
-            </a>
-
-            <a
-                href="#"
-                className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
-            >
-                Learn More
-            </a>
-        </div> */}
             </div>
           </div>
         </section>
@@ -80,7 +65,7 @@ const Home = () => {
           <ProductCard
             key={index}
             image={product.image}
-            // description={product.description}
+            description={product.description}
           />
         ))}
       </div>
@@ -98,7 +83,7 @@ const Home = () => {
             <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
               HOME MAINTENANCE
             </h5>
-            <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
+            <p className="mb-3 font-semibold text-black">
               From deep cleaning to routine upkeep, we offer a variety of home
               maintenance services tailored to your specific needs. Our goal is
               to keep your home in pristine condition, giving you more time to
@@ -114,7 +99,7 @@ const Home = () => {
             <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
               PEST SOLUTIONS
             </h5>
-            <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
+            <p className="mb-3 font-semibold text-black">
               Protect your home from unwanted pests with our effective pest
               control services. Our experienced technicians use safe and
               efficient methods to eliminate pests and prevent future
