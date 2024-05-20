@@ -13,6 +13,8 @@ import ProductCard from "../Components/Card/ProductCard";
 import SectionCard2 from "../Components/Card/SectionCard2";
 import Testimonials from "../Components/Testimonial/Testimonials";
 import SectionCard4 from "../Components/Card/SectionCard4";
+import Footer from "../Components/Footer";
+import WhatsappButton from "../Components/WhatsappButton";
 const Home = () => {
   const products = [
     { image: product1, description: "Toaster" },
@@ -68,6 +70,7 @@ const Home = () => {
           </div>
         </section>
       </div>
+      <WhatsappButton />
       <SectionCard2 />
       <h1 className="text-4xl font-bold text-gray-800 mb-4 mt-8 text-center">
         OUR SERVICES
@@ -137,6 +140,7 @@ const Home = () => {
       </div>
       <SectionCard4 />
       <Testimonials />
+      <Footer />
     </>
   );
 };

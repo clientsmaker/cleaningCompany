@@ -5,12 +5,14 @@ import pestControlImage from "../assets/pest1.jpg"; // Add your actual image pat
 import homeServiceImage from "../assets/carpetclean.jpg"; // Add your actual image path
 import Navbar from "../Components/Navbar";
 import React from "react";
+import WhatsappButton from "../Components/WhatsappButton";
 
 const About = () => {
   return (
     <>
       <div className="bg-gray-100">
         <Navbar />
+        <WhatsappButton />
         <div
           className="h-96 bg-cover bg-center"
           style={{

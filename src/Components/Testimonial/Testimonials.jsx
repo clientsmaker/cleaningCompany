@@ -60,7 +60,7 @@ const testimonials = [
   {
     img: "https://plus.unsplash.com/premium_photo-1689977927774-401b12d137d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ1fHxwcm9maWxlJTIwcGljdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
     name: "Michael Brown",
-    text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!"
+    text: "Choosing Golden Cleaning Service was one of the best decisions I made. Their team is friendly, their work is impeccable, and they always arrive on time. I wouldn't hesitate to recommend them to anyone"
   }
 ];
 

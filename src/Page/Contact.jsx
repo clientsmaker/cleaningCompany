@@ -2,6 +2,7 @@ import React from "react";
 import ContactCard from "../Components/Card/ContactCard";
 import backgroundImage from "../assets/carpetclean.jpg";
 import Navbar from "../Components/Navbar";
+import WhatsappButton from "../Components/WhatsappButton";
 
 const Contact = () => {
   return (
@@ -29,6 +30,7 @@ const Contact = () => {
           </div>
           <div className="flex justify-center items-center mb-8">
             <ContactCard />
+            <WhatsappButton />
           </div>
         </div>
        
