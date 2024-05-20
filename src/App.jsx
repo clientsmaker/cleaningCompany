@@ -10,6 +10,7 @@ import PurityChecking from "./Components/ServicePage/PurityChecking";
 import PestControl from "./Components/ServicePage/PestControl";
 import AcMaintanance from "./Components/ServicePage/AcMaintanance";
 import HomeMaintanance from "./Components/ServicePage/HomeMaintanance";
+import OfficeCleaning from "./Components/ServicePage/OfficeCleaning";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/pest-control" element={<PestControl />} />
         <Route exact path="/aircondition-check" element={<AcMaintanance />} />
         <Route exact path="/home-maintanance" element={<HomeMaintanance />} />
+        <Route exact path="/office-maintanance" element={<OfficeCleaning />} />
       </Route>
     </Routes>
   );

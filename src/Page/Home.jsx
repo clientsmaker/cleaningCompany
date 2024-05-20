@@ -23,7 +23,7 @@ const Home = () => {
     { image: product3, description: "AC Maintanance" ,path: "/aircondition-check" },
     { image: product4, description: "Home Maintenance",path:"/home-maintanance"},
     { image: product5, description: "Water Tank Cleaning",path: "/watertank-cleaning" },
-    { image: product6, description: "Office Cleaning" },
+    { image: product6, description: "Office Cleaning",path: "/office-maintanance"},
     // { image: product7, description: "Ice Cream Machine" },
     // { image: product8, description: "Dish Washer" },
   ];

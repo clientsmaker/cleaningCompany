@@ -1,47 +1,49 @@
 import React from 'react';
 import Navbar from '../Navbar';
 import image from '../../assets/acmech.jpg';
+import WhatsappButton from '../WhatsappButton';
 
 const AcMaintanance = () => {
     return (
         <>
           <Navbar />
           <section className="text-black bg-white">
-            <div className="container px-4 py-24 mx-auto">
-              <div className="lg:flex">
-                <div className="lg:w-1/2 lg:h-auto h-72 mb-8 lg:mb-0">
-                  <img alt="service-image" src={image} className="w-full h-full object-auto rounded" />
-                </div>
-                <div className="lg:w-1/2 lg:pl-8">
-                  <h1 className="text-3xl font-medium mb-4 text-black">Content Making</h1>
-                  <p className="text-lg leading-relaxed text-black">
-                    At TheClientsMaker.com, we understand the power of compelling content in capturing the attention of your audience and driving meaningful engagement. Our dedicated team of content creators is here to help you craft content that resonates with your target audience and achieves your business goals.
-                  </p>
-    
-                  <h3 className='text-xl font-bold leading-relaxed text-black'>
-                    Why Choose Us for Content Creation?
-                  </h3>
-                  <p className="text-lg leading-relaxed text-black">
-                    Tailored Content Solutions: We believe in creating content that is customized to meet the unique needs and objectives of your business. Whether you need blog posts, articles, social media content, or more, we've got you covered.<br />
-                    Quality and Originality: Our team is committed to delivering high-quality, original content that sets your brand apart. We take the time to research your industry, understand your audience, and create content that stands out. <br />
-                    Engagement and Conversion: Our content isn't just about words; it's about driving engagement and conversion. We focus on creating content that captures attention, builds trust, and ultimately drives action from your audience. <br />
-                    SEO Optimization: We understand the importance of SEO in content marketing. Our content is optimized for search engines to help improve your website's visibility and attract organic traffic. <br />
-                    Creative Approach: Creativity is at the heart of what we do. Whether it's storytelling, visual content, or interactive experiences, we're always looking for innovative ways to showcase your brand and connect with your audience.
-                  </p>
-    
-                  <h3 className='text-xl font-bold leading-relaxed text-black'>
-                    Let's Get Started!
-                  </h3>
-                  <p className="text-lg leading-relaxed text-black">
-                    Ready to take your content to the next level? Contact us today to discuss your content creation needs. Whether you're looking to attract new customers, engage your audience, or drive conversions, we're here to help you succeed with content that makes an impact.<br/>
-                    <br/>
-                    At <span className='font-extrabold'>TheClientsMaker.com</span>, we're not just creating content; we're creating connections.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
+  <div className="container px-4 py-24 mx-auto">
+    <div className="lg:flex">
+      <div className="lg:w-1/2 lg:h-auto h-72 mb-8 lg:mb-0">
+        <img alt="service-image" src={image} className="w-full h-full object-cover rounded" />
+      </div>
+      <div className="lg:w-1/2 lg:pl-8">
+        <h1 className="text-3xl font-medium mb-4 text-black">AC Maintenance</h1>
+        <p className="text-lg leading-relaxed text-black">
+          At Golden Water Tank Cleaning & Pest Control Services, we understand the importance of a well-maintained air conditioning system for your comfort and health. Our expert team provides comprehensive AC maintenance services to ensure your system runs efficiently and reliably, keeping your environment cool and comfortable.
+        </p>
+
+        <h3 className="text-xl font-bold leading-relaxed text-black">
+          Why Choose Us for AC Maintenance?
+        </h3>
+        <p className="text-lg leading-relaxed text-black">
+          Expert Technicians: Our team of skilled technicians is trained to handle all types of AC units. We use the latest tools and techniques to provide the best service possible.<br />
+          Preventive Maintenance: Regular maintenance helps prevent unexpected breakdowns and extends the lifespan of your AC unit. We offer thorough inspections and tune-ups to keep your system in top condition.<br />
+          Energy Efficiency: A well-maintained AC unit runs more efficiently, saving you money on energy bills. Our services ensure your system operates at peak performance.<br />
+          Improved Air Quality: Clean and well-maintained AC systems improve indoor air quality by reducing dust, allergens, and pollutants. We clean and replace filters to ensure a healthy environment.<br />
+          Customer Satisfaction: Your satisfaction is our priority. We provide reliable and prompt service, ensuring your AC system is always ready to keep you cool.
+        </p>
+
+        <h3 className="text-xl font-bold leading-relaxed text-black">
+          Let's Get Started!
+        </h3>
+        <p className="text-lg leading-relaxed text-black">
+          Ready to experience the benefits of professional AC maintenance? Contact us today to schedule your service. Whether you need routine maintenance or emergency repairs, Golden Water Tank Cleaning & Pest Control Services is here to help you stay comfortable all year round.<br />
+          <br />
+          At <span className="font-extrabold">Golden Water Tank Cleaning & Pest Control Services</span>, we ensure your AC system is in excellent hands.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
           {/* <Footer /> */}
+          <WhatsappButton />
         </>
       );
     };

@@ -1,45 +1,67 @@
 import React from 'react';
 import Navbar from '../Navbar';
 import image from '../../assets/puritycheck.jpg';
+import WhatsappButton from '../WhatsappButton';
 const PurityChecking = () => {
     return (
         <>
           <Navbar />
           <section className="text-black bg-white">
-            <div className="container px-4 py-24 mx-auto">
-              <div className="lg:flex">
-                <div className="lg:w-1/2 lg:h-auto h-72 mb-8 lg:mb-0">
-                  <img alt="service-image" src={image} className="w-full h-full object-auto rounded" />
-                </div>
-                <div className="lg:w-1/2 lg:pl-8">
-                  <h1 className="text-3xl font-medium mb-4 text-black">Content Making</h1>
-                  <p className="text-lg leading-relaxed text-black">
-                    At TheClientsMaker.com, we understand the power of compelling content in capturing the attention of your audience and driving meaningful engagement. Our dedicated team of content creators is here to help you craft content that resonates with your target audience and achieves your business goals.
-                  </p>
-    
-                  <h3 className='text-xl font-bold leading-relaxed text-black'>
-                    Why Choose Us for Content Creation?
-                  </h3>
-                  <p className="text-lg leading-relaxed text-black">
-                    Tailored Content Solutions: We believe in creating content that is customized to meet the unique needs and objectives of your business. Whether you need blog posts, articles, social media content, or more, we've got you covered.<br />
-                    Quality and Originality: Our team is committed to delivering high-quality, original content that sets your brand apart. We take the time to research your industry, understand your audience, and create content that stands out. <br />
-                    Engagement and Conversion: Our content isn't just about words; it's about driving engagement and conversion. We focus on creating content that captures attention, builds trust, and ultimately drives action from your audience. <br />
-                    SEO Optimization: We understand the importance of SEO in content marketing. Our content is optimized for search engines to help improve your website's visibility and attract organic traffic. <br />
-                    Creative Approach: Creativity is at the heart of what we do. Whether it's storytelling, visual content, or interactive experiences, we're always looking for innovative ways to showcase your brand and connect with your audience.
-                  </p>
-    
-                  <h3 className='text-xl font-bold leading-relaxed text-black'>
-                    Let's Get Started!
-                  </h3>
-                  <p className="text-lg leading-relaxed text-black">
-                    Ready to take your content to the next level? Contact us today to discuss your content creation needs. Whether you're looking to attract new customers, engage your audience, or drive conversions, we're here to help you succeed with content that makes an impact.<br/>
-                    <br/>
-                    At <span className='font-extrabold'>TheClientsMaker.com</span>, we're not just creating content; we're creating connections.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
+  <div className="container px-4 py-24 mx-auto">
+    <div className="lg:flex">
+      <div className="lg:w-1/2 lg:h-auto h-72 mb-8 lg:mb-0">
+        <img alt="service-image" src={image} className="w-full h-full object-auto rounded" />
+      </div>
+      <div className="lg:w-1/2 lg:pl-8">
+        <h1 className="text-3xl font-medium mb-4 text-black">Purity Checking</h1>
+        <p className="text-lg leading-relaxed text-black">
+          At Golden Water Tank Cleaning & Pest Control Services, we are committed to ensuring the highest standards of water quality for both drinking and recreational purposes. Our comprehensive purity checking services are designed to provide you with safe and clean water, whether it's for consumption or swimming.
+        </p>
+        
+        <h3 className="text-xl font-bold leading-relaxed text-black">
+          Drinking Water Purity Checking
+        </h3>
+        <p className="text-lg leading-relaxed text-black">
+          Our drinking water purity checking service involves detailed analysis and testing to ensure that your water is free from contaminants and safe for consumption. We employ advanced testing methods to detect impurities and provide solutions to maintain optimal water quality.
+        </p>
+        <ul className="list-disc list-inside text-lg leading-relaxed text-black mb-4">
+          <li>Comprehensive water testing and analysis</li>
+          <li>Detection of harmful bacteria and chemicals</li>
+          <li>Recommendations for water purification and filtration systems</li>
+          <li>Regular monitoring and maintenance services</li>
+        </ul>
+        
+        <h3 className="text-xl font-bold leading-relaxed text-black">
+          Swimming Pool Water Purity Checking
+        </h3>
+        <p className="text-lg leading-relaxed text-black">
+          Maintaining the purity of swimming pool water is essential for the health and safety of swimmers. Our swimming pool water purity checking service includes thorough testing and treatment to ensure your pool water is crystal clear and free of harmful substances.
+        </p>
+        <ul className="list-disc list-inside text-lg leading-relaxed text-black mb-4">
+          <li>Comprehensive pool water testing and analysis</li>
+          <li>Identification and removal of algae and bacteria</li>
+          <li>Chemical balancing and treatment recommendations</li>
+          <li>Regular maintenance and quality assurance</li>
+        </ul>
+        
+        <h3 className="text-xl font-bold leading-relaxed text-black">
+          Why Choose Us?
+        </h3>
+        <p className="text-lg leading-relaxed text-black">
+          With our expert team and advanced technology, Golden Water Tank Cleaning & Pest Control Services ensures that your water quality meets the highest standards. Our commitment to excellence and customer satisfaction makes us the preferred choice for purity checking services.
+        </p>
+        
+        <h3 className="text-xl font-bold leading-relaxed text-black">
+          Contact Us
+        </h3>
+        <p className="text-lg leading-relaxed text-black">
+          Ensure the purity and safety of your water today. Contact Golden Water Tank Cleaning & Pest Control Services to schedule your water purity check and experience the difference of professional service.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<WhatsappButton />
           {/* <Footer /> */}
         </>
       );
