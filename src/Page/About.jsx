@@ -3,8 +3,12 @@ import Navbar from "../Components/Navbar";
 import WhatsappButton from "../Components/WhatsappButton";
 import backgroundImage from "../assets/abt.jpg";
 import waterTankImage from "../assets/water1.jpg";
-import pestControlImage from "../assets/pest1.jpg";
+import pestControlImage2 from "../assets/pest1.jpg";
+import pestControlImage from "../assets/pest2.jpg";
 import homeServiceImage from "../assets/carpetclean.jpg";
+import homeServiceImage1 from "../assets/homeclean.jpg";
+
+import watertank2 from "../assets/watertank2.jpeg";
 
 const About = () => {
   return (
@@ -54,10 +58,13 @@ const About = () => {
                 Ensure the purity and safety of your water supply with our thorough water tank cleaning services. We use advanced equipment and eco-friendly solutions to clean and sanitize your water tanks.
               </p>
             </div>
-            <div className="w-full md:w-1/2 flex  ">
-              <img src={waterTankImage} alt="Water Tank Cleaning" className="rounded-lg h-44  p-5" />
-              <img src={waterTankImage} alt="Water Tank Cleaning" className="rounded-lg h-44 p-5" />
-              {/* <img src={waterTankImage} alt="Water Tank Cleaning" className="rounded-lg h-44 p-5" /> */}
+            <div className="w-full md:w-1/2 flex flex-wrap">
+              <div className="w-full md:w-1/2 p-2">
+                <img src={waterTankImage} alt="Water Tank Cleaning" className="rounded-lg h-44" />
+              </div>
+              <div className="w-full md:w-1/2 p-2">
+                <img src={watertank2} alt="Water Tank Cleaning" className="rounded-lg h-44" />
+              </div>
             </div>
           </div>
 
@@ -68,24 +75,30 @@ const About = () => {
                 Protect your home from unwanted pests with our effective pest control services. Our experienced technicians use safe and efficient methods to eliminate pests and prevent future infestations.
               </p>
             </div>
-            <div className="w-full md:w-1/2 flex">
-              <img src={pestControlImage} alt="Pest Control" className="rounded-lg h-44  p-5" />
-              <img src={pestControlImage} alt="Pest Control" className="rounded-lg h-44  p-5" />
-              {/* <img src={pestControlImage} alt="Pest Control" className="rounded-lg h-44  p-5" /> */}
+            <div className="w-full md:w-1/2 flex flex-wrap">
+              <div className="w-full md:w-1/2 p-2">
+                <img src={pestControlImage} alt="Pest Control" className="rounded-lg h-44" />
+              </div>
+              <div className="w-full md:w-1/2 p-2">
+                <img src={pestControlImage2} alt="Pest Control" className="rounded-lg h-44" />
+              </div>
             </div>
           </div>
 
-          <div className="flex flex-wrap mb-8 ">
+          <div className="flex flex-wrap mb-8">
             <div className="w-full md:w-1/2 mb-4 md:mb-0">
               <p className="font-bold">Home Maintenance:</p>
               <p className="font-medium">
                 From deep cleaning to routine upkeep, we offer a variety of home maintenance services tailored to your specific needs. Our goal is to keep your home in pristine condition, giving you more time to enjoy it.
               </p>
             </div>
-            <div className="w-full md:w-1/2 flex">
-              <img src={homeServiceImage} alt="Home Maintenance" className="rounded-lg h-44  p-5" />
-              <img src={homeServiceImage} alt="Home Maintenance" className="rounded-lg h-44  p-5" />
-              {/* <img src={homeServiceImage} alt="Home Maintenance" className="rounded-lg h-44  p-5" /> */}
+            <div className="w-full md:w-1/2 flex flex-wrap">
+              <div className="w-full md:w-1/2 p-2">
+                <img src={homeServiceImage} alt="Home Maintenance" className="rounded-lg h-44" />
+              </div>
+              <div className="w-full md:w-1/2 p-2">
+                <img src={homeServiceImage1} alt="Home Maintenance" className="rounded-lg h-44" />
+              </div>
             </div>
           </div>
         </div>
@@ -93,6 +106,5 @@ const About = () => {
     </>
   );
 };
-
 
 export default About;
