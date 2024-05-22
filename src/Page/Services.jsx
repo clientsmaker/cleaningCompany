@@ -5,7 +5,8 @@ import ServiceCard1 from '../Components/Card/ServiceCard1';
 import ServiceCard2 from '../Components/Card/ServiceCard2';
 import ServiceCard3 from '../Components/Card/ServiceCard3';
 import ServiceCard4 from '../Components/Card/ServiceCard4';
-
+// import backgroundImage from '../../assets/Images/';
+import backgroundImage from '../assets/disintection.jpeg';
 const Services = () => {
   const [currentServiceIndex, setCurrentServiceIndex] = useState(0);
 
@@ -30,32 +31,34 @@ const Services = () => {
 
   return (
 <>
-<div className="">
-      <Navbar />
-      <div className="flex flex-col items-center justify-start ">
-        <div className="p-6 text-white flex flex-col items-center md:flex-row justify-center md:justify-start">
-          <h3 className="text-xl md:text-2xl lg:text-4xl text-center md:text-left jerking-effect">
-            {/* <strong className='text-white'>Our Services:</strong><br/> */}
-            <p className=" text-gray-500  mt-40 sm:mt-24">
-            Your one-stop solution for a cleaner, safer home. From crystal-clear water tanks to effective pest control and reliable home maintenance, we ensure your home is always at its best.
-</p>
-          </h3>
+<Navbar />
+      <div className="relative">
+        <WhatsappButton />
+        <div
+          className="h-96 bg-cover bg-center flex items-center justify-center"
+          style={{ backgroundColor: "#c6b069" }}
+        >
+          <div className="bg-black bg-opacity-50 p-8 rounded-md max-w-2xl text-center text-white pt-20">
+            <h3 className="text-4xl font-bold mb-4">Services</h3>
+            <p className="text-lg">
+              From crystal-clear water tanks to effective pest control and reliable home maintenance, we ensure your home is always at its best.
+            </p>
+          </div>
         </div>
       </div>
-
       <h1 className="text-4xl font-bold text-gray-400 mb-4 mt-8 text-center jerking-effect">
         Some of Our Services
       </h1>
 
      
-        <ServiceCard1 />
         <ServiceCard2 />
+        <ServiceCard1 />
         <ServiceCard3 />
         <ServiceCard4 />
      
 
       <WhatsappButton />
-      </div>
+     
       </>
   );
 };

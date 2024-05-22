@@ -31,30 +31,22 @@ const Home = () => {
     <>
       <div>
         <Navbar />
-        <section
-          className="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${homecard})` }}
+        <div className="relative">
+       
+        <div
+          className="h-screen bg-cover bg-center flex items-center justify-center"
+          style={{
+            backgroundImage: `url(${homecard})`,
+          }}
         >
-          <div className="absolute inset-0  sm:bg-transparent "></div>
-
-          <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-            <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-              <h1 className="text-3xl font-extrabold sm:text-5xl">
-                Clean Spaces,
-                <strong className="block font-extrabold text-rose-700">
-                  Happy Faces.
-                </strong>
-              </h1>
-
-              <p className="mt-4 max-w-lg sm:text-xl/relaxed">
-                Experience the ultimate in home cleanliness and comfort with
-                Golden Cleaning Service. From water tank cleaning to pest
-                control, we ensure your home shines.
-              </p>
-
-            </div>
+          <div className="bg-black bg-opacity-50 p-8 rounded-md max-w-2xl text-center text-white">
+            <h3 className="text-4xl font-bold mb-4">"Your one-stop solution for a cleaner, safer home."</h3>
+            <p className="text-lg">
+              From crystal-clear water tanks to effective pest control and reliable home maintenance, we ensure your home is always at its best.
+            </p>
           </div>
-        </section>
+        </div>
+      </div>
       </div>
       <WhatsappButton />
       <SectionCard2 />

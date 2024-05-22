@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom";
-import logo from '../assets/logo2.png'
+import logo from '../assets/logoupscale.png'
 const variants = {
   open: { opacity: 1, y: 0 },
   closed: { opacity: 0, y: "-100%" },
@@ -16,10 +16,10 @@ const Navbar = () => {
 
   return (
     <div className="bg-slate-700">
-      <header className="py-2 fixed z-10 w-full overflow--hidden"style={{  backdropFilter: 'blur(1px)', backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
+      <header className="py-2 absolute z-10 w-full bg-white overflow--hidden">
         <nav className="flex justify-between items-center max-container">
           <div className="flex items-center">
-          <img src={logo} className='p-2 w-128 h-28' alt="Skep Interiors Logo" />
+          <img src={logo} className='p-2 w-128 h-28 ' alt="Skep Interiors Logo" />
           
           </div>
           <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden p-2">
