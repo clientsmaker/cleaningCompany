@@ -18,11 +18,11 @@ import WhatsappButton from "../Components/WhatsappButton";
 import { Link } from "react-router-dom";
 const Home = () => {
   const products = [
-    { image: product1, description: "Purity Checking",path: "/purity-checking" },
+    { image: product5, description: "Water Tank Cleaning",path: "/watertank-cleaning" },
     { image: product2, description: "Pest Control",path: "/pest-control" },
+    { image: product1, description: "Purity Checking",path: "/purity-checking" },
     { image: product3, description: "AC Maintanance" ,path: "/aircondition-check" },
     { image: product4, description: "Home Maintenance",path:"/home-maintanance"},
-    { image: product5, description: "Water Tank Cleaning",path: "/watertank-cleaning" },
     { image: product6, description: "Office Cleaning",path: "/office-maintanance"},
     // { image: product7, description: "Ice Cream Machine" },
     // { image: product8, description: "Dish Washer" },
