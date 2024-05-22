@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom";
-
+import logo from '../assets/logo2.png'
 const variants = {
   open: { opacity: 1, y: 0 },
   closed: { opacity: 0, y: "-100%" },
@@ -16,14 +16,11 @@ const Navbar = () => {
 
   return (
     <div className="bg-slate-700">
-      <header className="py-2 fixed z-10 w-full overflow--hidden"style={{  backdropFilter: 'blur(2px)', backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
+      <header className="py-2 fixed z-10 w-full overflow--hidden"style={{  backdropFilter: 'blur(1px)', backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
         <nav className="flex justify-between items-center max-container">
           <div className="flex items-center">
-            <h3 className="ml-10 block font-extrabold mt-6 text-xl font-serif" >
-              <h1 style={{ fontFamily: 'Cinzel, serif' }}>
-              GOLDEN WATER TANK CLEANIG & PEST CONTROL SERVICES
-              </h1>
-            </h3>
+          <img src={logo} className='p-2 w-128 h-28' alt="Skep Interiors Logo" />
+          
           </div>
           <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden p-2">
             <li className="font-bold leading-normal hover:scale-110 transition-all ease-in-out text-lg text-black">
