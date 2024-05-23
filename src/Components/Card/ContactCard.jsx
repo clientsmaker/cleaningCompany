@@ -42,7 +42,10 @@ const ContactCard = () => {
               Our friendly team is here to help.
             </p>
             <p className="mt-2 text-blue-500 dark:text-blue-400">
-            info@goldenwateremirates.com
+            harsh@goldenwateremirates.com
+            </p>
+            <p className="mt-2 text-blue-500 dark:text-blue-400">
+            navneet@goldenwateremirates.com
             </p>
           </div>
 
@@ -75,7 +78,10 @@ const ContactCard = () => {
             <p className="mt-2 text-gray-500 dark:text-gray-400">
             P.O.Box:63235, 
             </p>
-            <p className="mt-2 text-blue-500 dark:text-blue-400">
+            <p className="mt-2 text-gray-500 dark:text-gray-400">
+            Frij al murar
+            </p>
+            <p className="mt-2 text-gray-500 dark:text-gray-400">
             Dubai-U.A.E
             </p>
           </div>
@@ -102,7 +108,7 @@ const ContactCard = () => {
               Phone
             </h2>
             <p className="mt-2 text-gray-500 dark:text-gray-400"></p>
-            <p className="mt-2 text-blue-500 dark:text-blue-400">
+            <p className="mt-2 text-gray-500 dark:text-gray-400">
             +971 4 251 3365
             </p>
           </div>

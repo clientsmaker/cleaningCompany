@@ -23,19 +23,19 @@ const Footer = () => {
               <p className="font-medium text-white">Services</p>
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75">Water Storage Tank Cleaning</a>
+                  <a href="#" className="text-white transition hover:opacity-75">Water Reserviour and Tank Cleaning</a>
                 </li>
                 <li>
                   <a href="#" className="text-white transition hover:opacity-75">Pest Control</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75">Cooling Tower Cleaning</a>
+                  <a href="#" className="text-white transition hover:opacity-75">Home and Office Cleaning</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75">Sanitization</a>
+                  <a href="#" className="text-white transition hover:opacity-75">Disinfection and Sanitization</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75">Building Cleaning</a>
+                  <a href="#" className="text-white transition hover:opacity-75">AC Repait Service</a>
                 </li>
               </ul>
             </div>
@@ -44,7 +44,7 @@ const Footer = () => {
               <p className="font-medium text-white">Company</p>
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75">P.O.Box:63235, Dubai-U.A.E</a>
+                  <a href="#" className="text-white transition hover:opacity-75">P.O.Box:63235, Frij al murar Dubai-U.A.E</a>
                 </li>
                 <li>
                   <a href="mailto:info@goldenwateremirates.com" className="text-white transition hover:opacity-75">info@goldenwateremirates.com</a>

@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import Navbar from "../Components/Navbar";
 import homecard from "../assets/disintection.jpeg";
 import homecard1 from "../assets/tank1.jpg";
-import homecard2 from "../assets/cleaningoffice.jpg";
-import product1 from "../assets/aftercleanng.avif";
+import homecard2 from "../assets/swimmingpool.jpg";
+import product1 from "../assets/dis.jpg";
 import product2 from "../assets/pest1.jpg";
 import product3 from "../assets/acmech.jpg";
 import product4 from "../assets/homeclean.jpg";
-import product5 from "../assets/ser2.jpg";
+import product5 from "../assets/ser6.jpg";
 import product6 from "../assets/ser3.jpg";
 import product7 from "../assets/ser4.jpg";
 import product8 from "../assets/watertank2.jpeg";
@@ -18,19 +18,39 @@ import SectionCard4 from "../Components/Card/SectionCard4";
 import Footer from "../Components/Footer";
 import WhatsappButton from "../Components/WhatsappButton";
 import { Link } from "react-router-dom";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import { motion, AnimatePresence } from 'framer-motion';
-import './Home.css'; // Add this line to import the CSS file
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { motion, AnimatePresence } from "framer-motion";
+import "./Home.css"; // Add this line to import the CSS file
 
 const Home = () => {
   const products = [
-    { image: product5, description: "Water Tank Cleaning",path: "/watertank-cleaning" },
-    { image: product2, description: "Pest Control",path: "/pest-control" },
-    { image: product1, description: "Purity Checking",path: "/purity-checking" },
-    { image: product3, description: "AC Maintenance" ,path: "/aircondition-check" },
-    { image: product4, description: "Home Maintenance",path:"/home-maintenance"},
-    { image: product6, description: "Office Cleaning",path: "/office-maintenance"},
+    {
+      image: product5,
+      description: "Water Tank Cleaning",
+      path: "/watertank-cleaning",
+    },
+    { image: product2, description: "Pest Control", path: "/pest-control" },
+    {
+      image: product3,
+      description: "AC Maintenance",
+      path: "/aircondition-check",
+    },
+    {
+      image: product4,
+      description: "Home Maintenance",
+      path: "/home-maintenance",
+    },
+    {
+      image: product6,
+      description: "Office Cleaning",
+      path: "/office-maintenance",
+    },
+    {
+      image: product1,
+      description: "Disinfection and Sanitization",
+      path: "/purity-checking",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -53,25 +73,31 @@ const Home = () => {
             {images.map((image, index) => (
               <motion.div
                 key={index}
-                className={`absolute inset-0 transition-opacity duration-1000 ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}
+                className={`absolute inset-0 transition-opacity duration-1000 ${
+                  index === currentIndex ? "opacity-100" : "opacity-0"
+                }`}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: index === currentIndex ? 1 : 0 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 1 }}
                 style={{
                   backgroundImage: `url(${image})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  animation: 'zoomEffect 6s ease-in-out infinite'
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  animation: "zoomEffect 6s ease-in-out infinite",
                 }}
               />
             ))}
           </AnimatePresence>
 
           <div className="bg-black bg-opacity-50 p-8 rounded-md max-w-2xl text-center text-white z-10">
-            <h3 className="text-4xl font-bold mb-4">"Your one-stop solution for a cleaner, safer home."</h3>
+            <h3 className="text-4xl font-bold mb-4">
+              "Your one-stop solution for a cleaner, safer home."
+            </h3>
             <p className="text-lg">
-              From crystal-clear water tanks to effective pest control and reliable home maintenance, we ensure your home is always at its best.
+              From crystal-clear water tanks to effective pest control and
+              reliable home maintenance, we ensure your home is always at its
+              best.
             </p>
           </div>
         </div>
@@ -84,11 +110,11 @@ const Home = () => {
       <div className="flex justify-center flex-wrap gap-8 mt-8">
         {products.map((product, index) => (
           <Link to={product.path} key={index}>
-          <ProductCard
-            image={product.image}
-            description={product.description}
-          />
-        </Link>
+            <ProductCard
+              image={product.image}
+              description={product.description}
+            />
+          </Link>
         ))}
       </div>
       <h1 className="text-4xl font-bold text-black mb-4 mt-8 text-center">
@@ -103,13 +129,13 @@ const Home = () => {
               className="w-16 h-16 rounded-full object-cover mb-3"
             />
             <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-              HOME MAINTENANCE
+              Health and Safety
             </h5>
             <p className="mb-3 font-semibold text-black">
-              From deep cleaning to routine upkeep, we offer a variety of home
-              maintenance services tailored to your specific needs. Our goal is
-              to keep your home in pristine condition, giving you more time to
-              enjoy it
+              Your family's health is our top priority. Our thorough cleaning
+              process ensures that your water remains free from contaminants,
+              providing you with clean and safe water for drinking and everyday
+              use.
             </p>
           </div>
           <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-bg-white-01 dark:border-gray-700 m-4 custom-shadow-bg-white">
@@ -119,13 +145,12 @@ const Home = () => {
               className="w-16 h-16 rounded-full object-cover mb-3"
             />
             <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-              PEST SOLUTIONS
+              Improved Water Quality
             </h5>
             <p className="mb-3 font-semibold text-black">
-              Protect your home from unwanted pests with our effective pest
-              control services. Our experienced technicians use safe and
-              efficient methods to eliminate pests and prevent future
-              infestations.
+              Experience an immediate improvement in water taste and odor. Our
+              cleaning methods remove built-up sediments and bacteria, leaving
+              you with water that meets the highest hygiene standards.
             </p>
           </div>
           <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-bg-white-01 dark:border-gray-700 m-4 custom-shadow-bg-white">
@@ -135,12 +160,13 @@ const Home = () => {
               className="w-16 h-16 rounded-full object-cover mb-3"
             />
             <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-              WATER TANK CLEANING
+            Prolonged Tank Life
             </h5>
             <p className="mb-3 font-semibold text-black">
-              Ensure the purity and safety of your water supply with our
-              thorough water tank cleaning services. We use advanced equipment
-              and eco-friendly solutions to clean and sanitize your water tanks.
+             Regular tank cleaning not only ensures clean
+              water but also extends the lifespan of your water storage system.
+              This saves you money on costly replacements and repairs in the
+              long run.
             </p>
           </div>
         </div>
