@@ -31,7 +31,7 @@ const ServiceCard3 = () => {
             transition={{ duration: 0.5 }}
           >
            <h2 className="text-3xl text-gray-400 font-bold sm:text-4xl">Office Cleaning</h2>
-<p className="mt-4 text-black">
+<p className="mt-4 text-black font-medium">
   <strong>Comprehensive Cleaning Solutions:</strong> We offer a wide range of office cleaning services, including dusting, vacuuming, sanitizing surfaces, and cleaning restrooms. Our team ensures that every corner of your office is thoroughly cleaned and disinfected.
   <br/><br/>
   <strong>Eco-Friendly Practices:</strong> We prioritize the health and safety of your employees and the environment. Our cleaning products are eco-friendly and non-toxic, ensuring a safe workspace without compromising on cleanliness.

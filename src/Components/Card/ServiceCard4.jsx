@@ -31,7 +31,7 @@ const ServiceCard4 = () => {
             transition={{ duration: 0.5 }}
           >
               <h2 className="text-3xl text-gray-400 font-bold sm:text-4xl">Home Maintenance Services</h2>
-    <p className="mt-4 text-black">
+    <p className="mt-4 text-black font-medium">
         <strong>Swimming Pool Cleaning:</strong> Keep your pool clean and inviting with our professional swimming pool cleaning services. We handle everything from skimming and vacuuming to chemical balancing, ensuring your pool is always ready for a swim.
         <br/><br/>
         <strong>Electrical and Plumbing Work:</strong> Our experienced technicians are here to help with all your electrical and plumbing needs. Whether it's installing new fixtures, fixing leaks, or troubleshooting electrical issues, we've got you covered.

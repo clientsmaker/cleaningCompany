@@ -30,7 +30,7 @@ const ServiceCard2 = () => {
             transition={{ duration: 0.5 }}
           >
           <h2 className="text-3xl text-gray-400 font-bold sm:text-4xl">Water Tank Cleaning</h2>
-<p className="mt-4 text-black">
+<p className="mt-4 text-black font-medium">
   
   <strong>Thorough Cleaning Process:</strong> Our team uses advanced cleaning techniques and equipment to thoroughly clean and disinfect your water tanks. We remove all sediments, algae, and other impurities that can compromise the quality of your water.
   <br/><br/>

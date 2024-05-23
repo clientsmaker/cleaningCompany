@@ -40,7 +40,7 @@ const Services = () => {
         >
           <div className="bg-black bg-opacity-50 p-8 rounded-md max-w-2xl text-center text-white pt-20">
             <h3 className="text-4xl font-bold mb-4">Services</h3>
-            <p className="text-lg">
+            <p className="text-lg font-medium">
               From crystal-clear water tanks to effective pest control and reliable home maintenance, we ensure your home is always at its best.
             </p>
           </div>

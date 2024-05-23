@@ -37,7 +37,7 @@ const ServiceCard1 = () => {
             <h2 className="text-3xl text-gray-400 font-bold sm:text-4xl">
               Pest Control
             </h2>
-            <p className="mt-4 text-black">
+            <p className="mt-4 text-black font-medium">
               <strong>Comprehensive Pest Management:</strong> Our expert team utilizes the
               latest techniques and environmentally friendly products to target
               and eradicate a wide range of pests, including insects, rodents,

@@ -31,7 +31,7 @@ const About = () => {
 
         <div className="bg-gray-100 p-8 text-gray-800">
           <h2 className="text-3xl font-bold mb-6 text-center">Our Mission</h2>
-          <p className="text-lg mb-8 leading-relaxed">
+          <p className="text-lg mb-8 leading-relaxed font-medium">
             Welcome to Golden Cleaning Service, a premier home maintenance and
             cleaning company proudly serving our community. We specialize in
             providing top-tier services that ensure your living and working
