@@ -14,42 +14,42 @@ const OfficeCleaning = () => {
         <img alt="service-image" src={image} className="w-full h-full object-auto rounded" />
       </div>
       <div className="lg:w-1/2 lg:pl-8">
-        <h1 className="text-3xl font-medium mb-4 text-black">Office Cleaning Services</h1>
-        <p className="text-lg leading-relaxed text-black">
+        <h1 className="text-3xl font-bold mb-4 text-black pt-20">Office Cleaning Services</h1>
+        <p className="text-lg leading-relaxed text-black font-medium">
           At Golden Water Tank Cleaning & Pest Control Services, we offer comprehensive office cleaning solutions to ensure your workplace is clean, hygienic, and comfortable for your employees and clients.
         </p>
         
         <h3 className="text-xl font-bold leading-relaxed text-black">
           Customized Cleaning Plans
         </h3>
-        <p className="text-lg leading-relaxed text-black">
+        <p className="text-lg leading-relaxed text-black font-medium">
           Our office cleaning services are tailored to meet the specific needs of your business. We provide:
         </p>
-        <ul className="list-disc list-inside text-lg leading-relaxed text-black mb-4">
+        <ul className="list-disc list-inside text-lg leading-relaxed text-black mb-4 font-medium">
           <li>Regular cleaning schedules that fit your office hours</li>
           <li>Thorough cleaning of workstations, common areas, and restrooms</li>
           <li>Disinfection of high-touch surfaces to prevent the spread of germs</li>
           <li>Specialized cleaning services for conference rooms and reception areas</li>
         </ul>
         
-        <h3 className="text-xl font-bold leading-relaxed text-black">
+        <h3 className="text-xl font-bold leading-relaxed text-black ">
           Eco-Friendly Cleaning Products
         </h3>
-        <p className="text-lg leading-relaxed text-black">
+        <p className="text-lg leading-relaxed text-black font-medium">
           We use safe and eco-friendly cleaning products that are effective against germs and safe for your employees and the environment.
         </p>
         
         <h3 className="text-xl font-bold leading-relaxed text-black">
           Professional and Reliable Service
         </h3>
-        <p className="text-lg leading-relaxed text-black">
+        <p className="text-lg leading-relaxed text-black font-medium">
           Our team of trained professionals ensures a high standard of cleanliness and hygiene in your office, helping to create a positive and productive work environment.
         </p>
         
         <h3 className="text-xl font-bold leading-relaxed text-black">
           Contact Us
         </h3>
-        <p className="text-lg leading-relaxed text-black">
+        <p className="text-lg leading-relaxed text-black font-medium">
           Ensure a clean and welcoming office environment for your employees and clients. Contact Golden Water Tank Cleaning & Pest Control Services to schedule your office cleaning service today.
         </p>
       </div>

@@ -14,15 +14,15 @@ const AcMaintanance = () => {
         <img alt="service-image" src={image} className="w-full h-full object-cover rounded" />
       </div>
       <div className="lg:w-1/2 lg:pl-8">
-        <h1 className="text-3xl font-medium mb-4 text-black">AC Maintenance</h1>
-        <p className="text-lg leading-relaxed text-black">
+        <h1 className="text-3xl font-bold mb-4 text-black pt-20">AC Maintenance</h1>
+        <p className="text-lg leading-relaxed text-black font-medium">
           At Golden Water Tank Cleaning & Pest Control Services, we understand the importance of a well-maintained air conditioning system for your comfort and health. Our expert team provides comprehensive AC maintenance services to ensure your system runs efficiently and reliably, keeping your environment cool and comfortable.
         </p>
 
-        <h3 className="text-xl font-bold leading-relaxed text-black">
+        <h3 className="text-xl font-bold leading-relaxed text-black ">
           Why Choose Us for AC Maintenance?
         </h3>
-        <p className="text-lg leading-relaxed text-black">
+        <p className="text-lg leading-relaxed text-black font-medium">
           Expert Technicians: Our team of skilled technicians is trained to handle all types of AC units. We use the latest tools and techniques to provide the best service possible.<br />
           Preventive Maintenance: Regular maintenance helps prevent unexpected breakdowns and extends the lifespan of your AC unit. We offer thorough inspections and tune-ups to keep your system in top condition.<br />
           Energy Efficiency: A well-maintained AC unit runs more efficiently, saving you money on energy bills. Our services ensure your system operates at peak performance.<br />
@@ -33,7 +33,7 @@ const AcMaintanance = () => {
         <h3 className="text-xl font-bold leading-relaxed text-black">
           Let's Get Started!
         </h3>
-        <p className="text-lg leading-relaxed text-black">
+        <p className="text-lg leading-relaxed text-black font-medium">
           Ready to experience the benefits of professional AC maintenance? Contact us today to schedule your service. Whether you need routine maintenance or emergency repairs, Golden Water Tank Cleaning & Pest Control Services is here to help you stay comfortable all year round.<br />
           <br />
           At <span className="font-extrabold">Golden Water Tank Cleaning & Pest Control Services</span>, we ensure your AC system is in excellent hands.

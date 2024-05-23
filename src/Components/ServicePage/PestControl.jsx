@@ -14,18 +14,18 @@ const PestControl = () => {
         <img alt="service-image" src={image} className="w-full h-full object-auto rounded" />
       </div>
       <div className="lg:w-1/2 lg:pl-8">
-        <h1 className="text-3xl font-medium mb-4 text-black">Pest Control Services</h1>
-        <p className="text-lg leading-relaxed text-black">
+        <h1 className="text-3xl font-bold mb-4 text-black pt-20">Pest Control Services</h1>
+        <p className="text-lg leading-relaxed text-black font-medium">
           At Golden Water Tank Cleaning & Pest Control Services, we provide comprehensive pest control solutions to ensure your home or business is free from pests. Our expert team uses safe and effective methods to eliminate pests and prevent future infestations.
         </p>
         
         <h3 className="text-xl font-bold leading-relaxed text-black">
           Residential Pest Control
         </h3>
-        <p className="text-lg leading-relaxed text-black">
+        <p className="text-lg leading-relaxed text-black font-medium">
           Our residential pest control services are tailored to protect your home and family from unwanted pests. We offer:
         </p>
-        <ul className="list-disc list-inside text-lg leading-relaxed text-black mb-4">
+        <ul className="list-disc list-inside text-lg leading-relaxed text-black mb-4 font-medium">
           <li>Effective treatments for common household pests such as ants, cockroaches, spiders, and rodents</li>
           <li>Safe and eco-friendly pest control solutions</li>
           <li>Preventive measures to keep pests out of your home</li>
@@ -35,10 +35,10 @@ const PestControl = () => {
         <h3 className="text-xl font-bold leading-relaxed text-black">
           Commercial Pest Control
         </h3>
-        <p className="text-lg leading-relaxed text-black">
+        <p className="text-lg leading-relaxed text-black font-medium">
           Our commercial pest control services are designed to protect your business and maintain a pest-free environment. We offer:
         </p>
-        <ul className="list-disc list-inside text-lg leading-relaxed text-black mb-4">
+        <ul className="list-disc list-inside text-lg leading-relaxed text-black mb-4 font-medium">
           <li>Customized pest management plans tailored to your business needs</li>
           <li>Discreet and efficient treatments to minimize business disruption</li>
           <li>Compliance with industry standards and regulations</li>
@@ -48,14 +48,14 @@ const PestControl = () => {
         <h3 className="text-xl font-bold leading-relaxed text-black">
           Why Choose Us?
         </h3>
-        <p className="text-lg leading-relaxed text-black">
+        <p className="text-lg leading-relaxed text-black font-medium">
           With our experience and dedication to customer satisfaction, Golden Water Tank Cleaning & Pest Control Services is your trusted partner in pest management. We ensure the health and safety of your family, employees, and customers by delivering effective pest control solutions.
         </p>
         
         <h3 className="text-xl font-bold leading-relaxed text-black">
           Contact Us
         </h3>
-        <p className="text-lg leading-relaxed text-black">
+        <p className="text-lg leading-relaxed text-black font-medium">
           Protect your home or business from pests today. Contact Golden Water Tank Cleaning & Pest Control Services to schedule your pest control service and experience the difference of professional pest management.
         </p>
       </div>
