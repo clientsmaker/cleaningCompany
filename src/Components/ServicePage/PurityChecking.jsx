@@ -76,10 +76,10 @@ const PurityChecking = () => {
                 Contact Us
               </h3>
               <p className="text-lg leading-relaxed text-black font-medium">
-                Ensure the purity and safety of your water today. Contact Golden
-                Water Tank Cleaning & Pest Control Services to schedule your
-                water purity check and experience the difference of professional
-                service.
+                Protect your home and workplace with our professional
+                disinfection and sanitization services. Contact Golden Water
+                Tank Cleaning & Pest Control Services today to schedule a
+                service and ensure a cleaner, safer environment.
               </p>
             </div>
           </div>
