@@ -11,7 +11,7 @@ const ContactCard = () => {
             Get in touch
           </h1>
 
-          <p className="mt-3 text-gray-500 dark:text-gray-400">
+          <p className="mt-3 text-gray-500 dark:text-gray-400 font-medium">
             Our friendly team is always here to chat.
           </p>
         </div>
@@ -38,13 +38,13 @@ const ContactCard = () => {
             <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">
               Email
             </h2>
-            <p className="mt-2 text-gray-500 dark:text-gray-400">
+            <p className="mt-2 text-gray-500 dark:text-gray-400 font-medium">
               Our friendly team is here to help.
             </p>
-            <p className="mt-2 text-blue-500 dark:text-blue-400">
+            <p className="mt-2 text-blue-500 dark:text-blue-400 font-medium">
             harsh@goldenwateremirates.com
             </p>
-            <p className="mt-2 text-blue-500 dark:text-blue-400">
+            <p className="mt-2 text-blue-500 dark:text-blue-400 font-medium">
             navneet@goldenwateremirates.com
             </p>
           </div>
@@ -75,13 +75,13 @@ const ContactCard = () => {
             <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">
               Office
             </h2>
-            <p className="mt-2 text-gray-500 dark:text-gray-400">
+            <p className="mt-2 text-gray-500 dark:text-gray-400 font-medium">
             P.O.Box:63235, 
             </p>
-            <p className="mt-2 text-gray-500 dark:text-gray-400">
-            Frij al murar
+            <p className="mt-2 text-gray-500 dark:text-gray-400 font-medium">
+            Frij Al Murar near KFC
             </p>
-            <p className="mt-2 text-gray-500 dark:text-gray-400">
+            <p className="mt-2 text-gray-500 dark:text-gray-400 font-medium">
             Dubai-U.A.E
             </p>
           </div>
@@ -108,7 +108,7 @@ const ContactCard = () => {
               Phone
             </h2>
             <p className="mt-2 text-gray-500 dark:text-gray-400"></p>
-            <p className="mt-2 text-gray-500 dark:text-gray-400">
+            <p className="mt-2 text-gray-500 dark:text-gray-400 font-medium">
             +971 4 251 3365
             </p>
           </div>

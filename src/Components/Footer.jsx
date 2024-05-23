@@ -14,37 +14,37 @@ const Footer = () => {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-4 lg:gap-16">
             <div className="col-span-1">
               <h2 className="text-xl font-semibold text-blue-900 mb-4"style={{ fontFamily: 'Cinzel, serif', lineHeight: '1.2' }}> GOLDEN WATER TANK CLEANIG & PEST CONTROL SERVICES</h2>
-              <p className="text-gray-200 leading-relaxed">
+              <p className="text-gray-200 leading-relaxed font-medium">
                 Providing top-notch water tank cleaning, pest control, and various home services to ensure your home is always in perfect condition.
               </p>
             </div>
 
             <div className="col-span-1">
-              <p className="font-medium text-white">Services</p>
-              <ul className="mt-6 space-y-4 text-sm">
+              <p className="font-bold text-white">Services</p>
+              <ul className="mt-6 space-y-4 text-sm font-medium">
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75">Water Reserviour and Tank Cleaning</a>
+                  <a href="#" className="text-white transition hover:opacity-75 font-medium">Water Reserviour and Tank Cleaning</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75">Pest Control</a>
+                  <a href="#" className="text-white transition hover:opacity-75 font-medium">Pest Control</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75">Home and Office Cleaning</a>
+                  <a href="#" className="text-white transition hover:opacity-75 font-medium">Home and Office Cleaning</a>
                 </li>
                 <li>
                   <a href="#" className="text-white transition hover:opacity-75">Disinfection and Sanitization</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75">AC Repait Service</a>
+                  <a href="#" className="text-white transition hover:opacity-75 font-medium">AC Repair Service</a>
                 </li>
               </ul>
             </div>
 
             <div className="col-span-1">
-              <p className="font-medium text-white">Company</p>
-              <ul className="mt-6 space-y-4 text-sm">
+              <p className="font-bold text-white">Company</p>
+              <ul className="mt-6 space-y-4 text-sm font-medium">
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75">P.O.Box:63235, Frij al murar Dubai-U.A.E</a>
+                  <a href="#" className="text-white transition hover:opacity-75">P.O.Box:63235, Frij Al Murar near KFC Dubai-U.A.E</a>
                 </li>
                 <li>
                   <a href="mailto:info@goldenwateremirates.com" className="text-white transition hover:opacity-75">info@goldenwateremirates.com</a>
@@ -62,8 +62,8 @@ const Footer = () => {
             </div>
 
             <div className="col-span-1">
-              <p className="font-medium text-white">Helpline</p>
-              <ul className="mt-6 space-y-4 text-sm">
+              <p className="font-bold text-white">Helpline</p>
+              <ul className="mt-6 space-y-4 text-sm font-medium">
                 <li>
                   <a href="tel:+97142513365" className="text-white transition hover:opacity-75">+971 4 251 3365</a>
                 </li>

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Navbar';
 import image from '../../assets/water1.jpg';
 import WhatsappButton from '../WhatsappButton';
+import Footer from '../Footer';
 
 const Service1 = () => {
   return (
@@ -57,6 +58,7 @@ const Service1 = () => {
 </section>
 <WhatsappButton />
       {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

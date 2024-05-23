@@ -9,6 +9,7 @@ import homeServiceImage from "../assets/carpetclean.jpg";
 import homeServiceImage1 from "../assets/homeclean.jpg";
 
 import watertank2 from "../assets/watertank2.jpeg";
+import Footer from "../Components/Footer";
 
 const About = () => {
   return (
@@ -103,7 +104,7 @@ const About = () => {
             </div>
           </div>
         </div>
-    
+    <Footer />
     </>
   );
 };

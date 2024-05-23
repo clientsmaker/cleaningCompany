@@ -7,6 +7,7 @@ import ServiceCard3 from '../Components/Card/ServiceCard3';
 import ServiceCard4 from '../Components/Card/ServiceCard4';
 // import backgroundImage from '../../assets/Images/';
 import backgroundImage from '../assets/disintection.jpeg';
+import Footer from '../Components/Footer';
 const Services = () => {
   const [currentServiceIndex, setCurrentServiceIndex] = useState(0);
 
@@ -58,7 +59,7 @@ const Services = () => {
      
 
       <WhatsappButton />
-     
+  <Footer />
       </>
   );
 };

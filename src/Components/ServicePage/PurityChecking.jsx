@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import image from "../../assets/dis.jpg";
 import WhatsappButton from "../WhatsappButton";
+import Footer from "../Footer";
 const PurityChecking = () => {
   return (
     <>
@@ -87,6 +88,7 @@ const PurityChecking = () => {
       </section>
       <WhatsappButton />
       {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

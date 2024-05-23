@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Navbar';
 import image from '../../assets/carpetclean.jpg';
 import WhatsappButton from '../WhatsappButton';
+import Footer from '../Footer';
 
 const HomeMaintanance = () => {
     return (
@@ -87,6 +88,7 @@ const HomeMaintanance = () => {
 </section>
 <WhatsappButton />
           {/* <Footer /> */}
+          <Footer />
         </>
       );
     };

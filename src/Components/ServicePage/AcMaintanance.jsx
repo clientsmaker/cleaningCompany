@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Navbar';
 import image from '../../assets/acmech.jpg';
 import WhatsappButton from '../WhatsappButton';
+import Footer from '../Footer';
 
 const AcMaintanance = () => {
     return (
@@ -44,6 +45,7 @@ const AcMaintanance = () => {
 </section>
           {/* <Footer /> */}
           <WhatsappButton />
+          <Footer />
         </>
       );
     };

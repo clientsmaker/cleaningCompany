@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Navbar';
 import image from '../../assets/officeclean.jpg';
 import WhatsappButton from '../WhatsappButton';
+import Footer from '../Footer';
 
 const OfficeCleaning = () => {
     return (
@@ -58,6 +59,7 @@ const OfficeCleaning = () => {
 </section>
 <WhatsappButton />
           {/* <Footer /> */}
+          <Footer />
         </>
       );
     };

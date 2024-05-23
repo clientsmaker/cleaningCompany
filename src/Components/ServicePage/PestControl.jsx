@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Navbar';
 import image from '../../assets/pestContorl.jpg';
 import WhatsappButton from '../WhatsappButton';
+import Footer from '../Footer';
 
 const PestControl = () => {
     return (
@@ -64,6 +65,7 @@ const PestControl = () => {
 </section>
 <WhatsappButton />
           {/* <Footer /> */}
+          <Footer />
         </>
       );
     };

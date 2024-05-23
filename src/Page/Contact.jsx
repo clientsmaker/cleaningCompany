@@ -3,6 +3,7 @@ import ContactCard from "../Components/Card/ContactCard";
 import backgroundImage from "../assets/carpetclean.jpg";
 import Navbar from "../Components/Navbar";
 import WhatsappButton from "../Components/WhatsappButton";
+import Footer from "../Components/Footer";
 
 const Contact = () => {
   return (
@@ -24,7 +25,7 @@ const Contact = () => {
               alt="Let's Cook Logo"
               className="mb-4 max-w-xs md:mr-6 md:mb-0"
             /> */}
-           <h1 className="text-center text-gray-100 justify-center text-5xl pt-20 font-extrabold">
+           <h1 className="text-center text-gray-100 justify-center text-5xl pt-28 font-extrabold">
             Contact Page
           </h1>
           </div>
@@ -35,6 +36,7 @@ const Contact = () => {
         </div>
        
       </div>
+      <Footer />
     </>
   );
 };
