@@ -39,12 +39,12 @@ const Home = () => {
     {
       image: product4,
       description: "Home Maintenance",
-      path: "/home-maintenance",
+      path: "/home-maintanance",
     },
     {
       image: product6,
       description: "Office Cleaning",
-      path: "/office-maintenance",
+      path: "/office-maintanance",
     },
     {
       image: product1,

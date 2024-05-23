@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import ser from '../../assets/ser2.jpg';
+import ser from '../../assets/ser6.jpg';
 const ServiceCard2 = () => {
     const { ref, inView } = useInView({
         triggerOnce: true, 

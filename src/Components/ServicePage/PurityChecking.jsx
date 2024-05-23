@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar";
-import image from "../../assets/disinfection.jpg";
+import image from "../../assets/dis.jpg";
 import WhatsappButton from "../WhatsappButton";
 const PurityChecking = () => {
   return (
@@ -13,7 +13,7 @@ const PurityChecking = () => {
               <img
                 alt="service-image"
                 src={image}
-                className="w-full h-full object-contain rounded"
+                className="w-full h-full object-cover rounded"
               />
             </div>
             <div className="lg:w-1/2 lg:pl-8">
