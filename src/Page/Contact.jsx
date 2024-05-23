@@ -24,7 +24,7 @@ const Contact = () => {
               alt="Let's Cook Logo"
               className="mb-4 max-w-xs md:mr-6 md:mb-0"
             /> */}
-           <h1 className="text-center text-gray-100 justify-center text-5xl p-2 font-extrabold">
+           <h1 className="text-center text-gray-100 justify-center text-5xl pt-20 font-extrabold">
             Contact Page
           </h1>
           </div>

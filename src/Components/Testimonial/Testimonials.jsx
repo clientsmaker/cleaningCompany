@@ -11,7 +11,7 @@ const Testimonials = () => {
 
         <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
           {testimonials.map((testimonial, index) => (
-            <blockquote key={index} className="rounded-lg p-6 shadow-sm sm:p-8" style={{ backgroundColor: '#fdf8e1' }}>
+            <blockquote key={index} className="rounded-lg p-6 shadow-sm sm:p-8" style={{ backgroundColor: "#c6b069" }}>
               <div className="flex items-center gap-4">
                 <img
                   alt=""
@@ -19,7 +19,7 @@ const Testimonials = () => {
                   className="size-14 rounded-full object-cover"
                 />
                 <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
+                  <div className="flex justify-center gap-0.5 text-yellow-400">
                     {[...Array(5)].map((star, i) => (
                       <svg
                         key={i}
@@ -48,18 +48,18 @@ const Testimonials = () => {
 
 const testimonials = [
   {
-    img: "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
-    name: "Paul Starr",
+    img: "https://media.istockphoto.com/id/1224612530/photo/portrait-of-smiling-young-man-wearing-white-shirt.jpg?s=612x612&w=0&k=20&c=sztKD6cHvMYQp-zNmTCORsaeMqGMfdCB4i9qcvkPWqg=",
+    name: "Rufous",
     text: "Golden Cleaning Service has been a lifesaver for me. Their attention to detail and professionalism are unmatched. I trust them completely with my water tank cleaning and pest control needs."
   },
   {
-    img: "https://plus.unsplash.com/premium_photo-1688350839154-1a131bccd78a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ5fHxwcm9maWxlJTIwcGljdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
-    name: "Sarah Johnson",
+    img: "https://media.istockphoto.com/id/1407759041/photo/confident-happy-beautiful-hispanic-student-girl-indoor-head-shot-portrait.webp?b=1&s=170667a&w=0&k=20&c=--Ei0owZ8KqwVppB5o0bMRG4aNV8VA0HHnsH1YfuxAw=",
+    name: "Natasha",
     text: "I've used several cleaning services in the past, but Golden Cleaning Service stands out. They are reliable, efficient, and always leave my home spotless. I highly recommend their services"
   },
   {
-    img: "https://plus.unsplash.com/premium_photo-1689977927774-401b12d137d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ1fHxwcm9maWxlJTIwcGljdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
-    name: "Michael Brown",
+    img: "https://media.istockphoto.com/id/1398385367/photo/happy-millennial-business-woman-in-glasses-posing-with-hands-folded.webp?b=1&s=170667a&w=0&k=20&c=YaXYAUQu3wpM2xiFJgorwMvK5pNnrrdnFeHd1lTVwCs=",
+    name: "Sophia",
     text: "Choosing Golden Cleaning Service was one of the best decisions I made. Their team is friendly, their work is impeccable, and they always arrive on time. I wouldn't hesitate to recommend them to anyone"
   }
 ];

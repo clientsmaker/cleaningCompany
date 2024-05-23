@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import Navbar from "../Components/Navbar";
 import homecard from "../assets/disintection.jpeg";
+import homecard1 from "../assets/tank1.jpg";
+import homecard2 from "../assets/cleaningoffice.jpg";
 import product1 from "../assets/aftercleanng.avif";
 import product2 from "../assets/pest1.jpg";
 import product3 from "../assets/acmech.jpg";
@@ -16,37 +18,63 @@ import SectionCard4 from "../Components/Card/SectionCard4";
 import Footer from "../Components/Footer";
 import WhatsappButton from "../Components/WhatsappButton";
 import { Link } from "react-router-dom";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import { motion, AnimatePresence } from 'framer-motion';
+import './Home.css'; // Add this line to import the CSS file
+
 const Home = () => {
   const products = [
     { image: product5, description: "Water Tank Cleaning",path: "/watertank-cleaning" },
     { image: product2, description: "Pest Control",path: "/pest-control" },
     { image: product1, description: "Purity Checking",path: "/purity-checking" },
-    { image: product3, description: "AC Maintanance" ,path: "/aircondition-check" },
-    { image: product4, description: "Home Maintenance",path:"/home-maintanance"},
-    { image: product6, description: "Office Cleaning",path: "/office-maintanance"},
-    // { image: product7, description: "Ice Cream Machine" },
-    // { image: product8, description: "Dish Washer" },
+    { image: product3, description: "AC Maintenance" ,path: "/aircondition-check" },
+    { image: product4, description: "Home Maintenance",path:"/home-maintenance"},
+    { image: product6, description: "Office Cleaning",path: "/office-maintenance"},
   ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const images = [homecard, homecard1, homecard2];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
       <div>
         <Navbar />
-        <div className="relative">
-       
-        <div
-          className="h-screen bg-cover bg-center flex items-center justify-center"
-          style={{
-            backgroundImage: `url(${homecard})`,
-          }}
-        >
-          <div className="bg-black bg-opacity-50 p-8 rounded-md max-w-2xl text-center text-white">
+        <div className="relative h-screen flex items-center justify-center">
+          <AnimatePresence>
+            {images.map((image, index) => (
+              <motion.div
+                key={index}
+                className={`absolute inset-0 transition-opacity duration-1000 ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: index === currentIndex ? 1 : 0 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 1 }}
+                style={{
+                  backgroundImage: `url(${image})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  animation: 'zoomEffect 6s ease-in-out infinite'
+                }}
+              />
+            ))}
+          </AnimatePresence>
+
+          <div className="bg-black bg-opacity-50 p-8 rounded-md max-w-2xl text-center text-white z-10">
             <h3 className="text-4xl font-bold mb-4">"Your one-stop solution for a cleaner, safer home."</h3>
             <p className="text-lg">
               From crystal-clear water tanks to effective pest control and reliable home maintenance, we ensure your home is always at its best.
             </p>
           </div>
         </div>
-      </div>
       </div>
       <WhatsappButton />
       <SectionCard2 />
