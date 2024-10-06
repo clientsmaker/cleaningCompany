@@ -19,7 +19,7 @@ const Navbar = () => {
       <header className="py-2 absolute z-10 w-full bg-white overflow--hidden">
         <nav className="flex justify-between items-center max-container">
           <div className="flex items-center">
-          <img src={logo} className='p-2 w-128 h-28 ' alt="Skep Interiors Logo" />
+          <img src={logo} className='p-2 w-128 h-32 ' alt="Skep Interiors Logo" />
           
           </div>
           <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden p-2">
@@ -39,7 +39,7 @@ const Navbar = () => {
 
           <div className="lg:hidden relative">
             <motion.button
-              className="w-10 h-10 bg-white rounded-full flex justify-center items-center mr-6"
+              className="w-10 h-10 bg-white rounded-full flex justify-center items-center mr-8"
               onClick={toggleMenu}
             >
               <svg
