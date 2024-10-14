@@ -47,7 +47,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <h1 className="text-4xl font-bold text-gray-400 mb-4 mt-8 text-center jerking-effect">
+      <h1 className="text-4xl font-bold text-gray-400  mt-8 text-center jerking-effect">
         Some of Our Services
       </h1>
 
